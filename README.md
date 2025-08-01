@@ -10,7 +10,7 @@ This repository is not just a collection of solutions — it’s a reflection of
 ## 📌 What You'll Find Here
 
 -  Daily DSA questions picked from top cheat sheets
--  Java implementations with focus on **clean logic**, **edge cases**, and **readable code**
+-  JavaScript implementations with focus on **clean logic**, **edge cases**, and **readable code**
 -  Topic-wise folders and file naming for clarity and tracking
 -  Gradual buildup — from basics to advanced topics
 -  Occasional notes and dry runs for tricky problems
