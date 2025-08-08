@@ -98,6 +98,7 @@ solution:  function revNumTri(n){
             }
         }
         let n=4;
-        revNumTri(n);      
+        revNumTri(n);    
+        
 */
 
