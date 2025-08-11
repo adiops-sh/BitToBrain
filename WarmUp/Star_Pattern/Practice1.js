@@ -99,6 +99,27 @@ solution:  function revNumTri(n){
         }
         let n=4;
         revNumTri(n);    
-        
-*/
 
+Pattern 6: Print a Right-Aligned Right-Angled Triangle of Stars
+Write a program that prints a right-aligned triangle of stars increasing row by row, with leading spaces for alignment.
+
+Output
+      *
+    * *
+  * * *
+* * * *    
+solution: function Right_Aligned_Str(){
+            for(let i=1;i<=n;i++){
+            let row="";
+            for(let sps = 1;sps<=n-i;sps++){
+                row = row +"  ";
+            }
+                for(let j=1;j<=i;j++){
+                    row = row +"* ";
+                }
+                console.log(row); // poori line ek baar me print hogi
+            }
+        }  
+        let n=4;
+        Right_Aligned_Str(n);
+*/
