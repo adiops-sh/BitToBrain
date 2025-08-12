@@ -122,4 +122,45 @@ solution: function Right_Aligned_Str(){
         }  
         let n=4;
         Right_Aligned_Str(n);
+
+Pattern 7: Print a Right-Angled Triangle of Alternating 1s and 0s
+Write a program that prints a triangle of alternating 1s and 0s starting with 1 on each row.
+
+Output
+1
+1 0
+1 0 1
+1 0 1 0  
+solution:  function Right_Aligned_Tri(){
+            for(let i=0;i<n;i++){
+            let row="";
+            let flag = 1;
+                for(let j=0;j<i+1;j++){
+                    row = row + flag;
+                    flag = flag === 1 ? 0 : 1;
+                }
+                console.log(row); // poori line ek baar me print hogi
+            }
+        }  
+        let n=4;
+        Right_Aligned_Tri(n);  
+        
+Pattern 8: Right-Angled Triangle of Alternating 1s and 0s (Global Toggle)
+Write a program to print a triangle of alternating 1s and 0s, but the toggle continues globally across rows.
+
+Output
+1
+0 1
+0 1 0
+1 0 1 0
+solution : let n = 4;
+            let toggle = 1;
+            for (let i = 0; i < n; i++) {
+                let row = "";
+                for (let j = 0; j < i + 1; j++) {
+                    row += toggle;
+                    toggle = toggle === 1 ? 0 : 1;
+                }
+                console.log(row);
+            }
 */
