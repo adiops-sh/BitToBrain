@@ -58,4 +58,23 @@ solution:  function searchEle(arr,target){
         let res = searchEle(arr,4);
         console.log(res);
 
+5. Write a function that returns the Second largest number in an array.
+solution:  function findSecLargest(arr) {
+    let largest = -Infinity;
+    let secLargest = -Infinity;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            secLargest = largest;
+            largest = arr[i];  
+        }else if(arr[i] > secLargest && arr[i] != largest){
+             secLargest = arr[i];
+        }
+    }
+    return secLargest;
+}
+
+let arr = [4,9,0,2,8,7,1];
+let result = findSecLargest(arr);
+console.log("Result:", result);
 */
