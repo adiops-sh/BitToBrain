@@ -68,7 +68,7 @@ solution:  function findSecLargest(arr) {
             secLargest = largest;
             largest = arr[i];  
         }else if(arr[i] > secLargest && arr[i] != largest){
-             secLargest = arr[i];
+            secLargest = arr[i];
         }
     }
     return secLargest;
@@ -77,4 +77,21 @@ solution:  function findSecLargest(arr) {
 let arr = [4,9,0,2,8,7,1];
 let result = findSecLargest(arr);
 console.log("Result:", result);
+
+
+6. Write a function countDigits(n)that takes an integer n and returns how many digits it contains.
+solution:   function countDigits(n) {
+                if (n === 0) return 1;
+
+                n = Math.abs(n);
+                let count = 0;
+                while (n > 0) {
+                    n = Math.floor(n / 10);
+                    count++;
+                }
+                return count;
+            }
+
+        console.log(countDigits(259));
+        
 */
