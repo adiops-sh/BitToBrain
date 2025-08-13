@@ -94,4 +94,21 @@ solution:   function countDigits(n) {
 
         console.log(countDigits(259));
         
+7. Write a function isPalindrome(x) that takes an integer x and returns true if it reads the same backward and forward; otherwise false.    
+
+solution:  function isPalindrome(x) {
+        if (x < 0) return false;
+
+            let xCopy = x;
+            let rev = 0;
+            while (x > 0) {
+                let r = x % 10;
+                rev = rev * 10 + r;
+                x = Math.floor(x / 10);
+            }
+                return rev === xCopy;
+        }
+            let num = 12321;
+            console.log(isPalindrome(num));
+
 */
