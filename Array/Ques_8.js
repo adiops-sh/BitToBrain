@@ -15,4 +15,5 @@ solution: function missingNumber(nums){
     let arr=[3,2,1,0,4];
     console.log(missingNumber(arr));
 
+    
 */
