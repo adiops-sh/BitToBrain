@@ -5,14 +5,14 @@ solution: function missingNumber(nums){
     let totalSum = n* (n+1)/2;
     
     let sum_of_array = 0;
-  
-      for (let num of nums) {
-          sum_of_array += num;
-      }
-      return totalSum - sum_of_array;
+
+    for (let num of nums) {
+        sum_of_array += num;
+    }
+    return totalSum - sum_of_array;
 
 }
-    let arr=[3,2,1,0,4];
+    let arr=[3,2,1,0,3];
     console.log(missingNumber(arr));
 
     
