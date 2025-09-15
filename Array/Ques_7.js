@@ -1,5 +1,5 @@
 /* Given a binary array nums, return the maximum number of consecutive 1’s in the array.
- solution:  function ConsOnes(nums){
+solution:  function ConsOnes(nums){
     let currCount=0;
     let maxCount=0;
 

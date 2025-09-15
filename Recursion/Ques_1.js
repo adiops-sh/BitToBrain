@@ -1,5 +1,5 @@
 /*
-   1.Print numbers from n to 1 using recursion
+1.Print numbers from n to 1 using recursion
 solution:
     function print(n){
         if(n===0){
