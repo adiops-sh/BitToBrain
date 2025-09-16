@@ -45,7 +45,6 @@ solution: function countDigits(n) {
             }
             return count;
         }
-
         console.log(countDigits(259));   
 
 */
