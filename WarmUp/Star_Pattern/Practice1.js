@@ -7,7 +7,6 @@ Output
 * * * *
 * * * *
 * * * *
-
 solution: function starSquare(){
             for(let i=0;i<n;i++){
             let row="";
@@ -20,9 +19,7 @@ solution: function starSquare(){
         let n=4;
         starSquare(n);
 
-Pattern 2: Right-Angled Star Triangle
-Print a right-angled triangle of stars with n rows.
-
+Pattern 2: Right-Angled Star Triangle, Print a right-angled triangle of stars with n rows.
 Output
 *
 * *
@@ -42,7 +39,6 @@ solution: function starSquare(n){
 
 Pattern 3: Print a Right-Angled Number Triangle
 Write a program that prints a right-angled triangle of numbers of heightn.
-
 Output
 1
 1 2
@@ -62,7 +58,6 @@ solution: function numTri(n){
 
 Pattern 4: Print a Right-Angled Triangle of Repeated Numbers
 Write a program that prints a right-angled triangle where each row contains the same number repeated.
-
 Output
 1
 2 2
@@ -82,7 +77,6 @@ solution:  function numTri(n){
 
 Pattern 5: Print a Reverse Right-Angled Triangle of Increasing Numbers
 Write a program that prints a reverse right-angled triangle where each row starts from 1 and the number of elements decreases with each row.
-
 Output
 1 2 3 4
 1 2 3
@@ -102,7 +96,6 @@ solution:  function revNumTri(n){
 
 Pattern 6: Print a Right-Aligned Right-Angled Triangle of Stars
 Write a program that prints a right-aligned triangle of stars increasing row by row, with leading spaces for alignment.
-
 Output
       *
     * *
@@ -125,7 +118,6 @@ solution: function Right_Aligned_Str(){
 
 Pattern 7: Print a Right-Angled Triangle of Alternating 1s and 0s
 Write a program that prints a triangle of alternating 1s and 0s starting with 1 on each row.
-
 Output
 1
 1 0
