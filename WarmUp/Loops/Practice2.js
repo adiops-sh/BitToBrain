@@ -129,5 +129,6 @@ solution : function reverseInteger(x) {
         }
             let num = 12345;
             console.log(reverseInteger(num));
+            
 */
     
