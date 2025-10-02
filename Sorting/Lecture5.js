@@ -12,6 +12,5 @@ function insertionSort(a){
     }
     return arr;
 }
-
 let arr = [5,3,-8,4,2];
 console.log(insertionSort(arr));
