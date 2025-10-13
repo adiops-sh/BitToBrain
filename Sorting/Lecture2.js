@@ -13,8 +13,8 @@ function binarySearch(arr,tar){
             }
             return -1;
         }
-
 }
+
     let arr= [11,12,13,14,15,16,17,18,19];
     let target = 15;
     console.log(binarySearch(arr,target)); 
