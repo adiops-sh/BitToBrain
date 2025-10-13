@@ -6,6 +6,7 @@ function linearSearch(arr, tar) {
     }
     return -1;
 }
+
     let arr= [4,9,1,10,2];
     let res = linearSearch(arr,10); 
     console.log(res);
