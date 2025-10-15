@@ -34,7 +34,9 @@ soltion:  function sumOfOdd(n,arr){
         }
 
 let arr = [5, 2, 6, 1, 3];
+
 console.log(sumOfOdd(arr.length - 1, arr));  // Output: 9
+
 console.log(sumOfOdd(arr.length - 1)); 
 
 */
